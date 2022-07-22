@@ -2,15 +2,14 @@ package shapes;
 
 public class Shape {
 	private int x, y;
-
+        private String color;
+	private int width;
 	public Shape(int x, int y) {
 		// super();
 		this.x = x;
 		this.y = y;
 	}
-	/*
-	 * public Shape() { // TODO Auto-generated constructor stub }
-	 */
+	
 
 	@Override
 	public String toString() {
@@ -20,7 +19,7 @@ public class Shape {
 	}
 	//area
 	public double area()
-	{
+	{ // calculate area of shape.
 		System.out.println("un defined area");
 		return -1;
 	}
